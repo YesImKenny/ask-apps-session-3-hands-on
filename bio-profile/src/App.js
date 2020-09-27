@@ -15,7 +15,7 @@ class App extends React.Component {
     return (
       <div>
         Bio Profiles!!!! 
-        {/* <BioProfiles /> */}
+        <BioProfiles />
       </div>
     )
   }
