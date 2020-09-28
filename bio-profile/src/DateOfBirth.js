@@ -9,8 +9,13 @@ class DateOfBirth extends React.Component {
     const dob = this.props.dob;
     return (
       <div>
-        {dob}
-      </div>
+      <section>
+        Date Of Birth: 
+        <span> {dob}
+        </span>
+      </section>
+      
+    </div>
     );
   }
 

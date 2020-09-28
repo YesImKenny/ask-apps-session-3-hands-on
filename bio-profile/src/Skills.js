@@ -9,7 +9,7 @@ class Skills extends React.Component {
     const skills = this.props.skills;
     return (
       <div>
-        {skills}
+        I am skilled in: {skills}
       </div>
     );
   }

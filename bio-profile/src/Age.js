@@ -4,7 +4,12 @@ const Age = (props) => {
   const age = props.age;
   return (
     <div>
-      {age}
+      <section>
+        Age:
+        <span> {age}
+        </span>
+      </section>
+      
     </div>
   );
 }
