@@ -6,7 +6,14 @@ class DateOfBirth extends React.Component {
   }
 
   render () {
-    const dob = this.props.dob;
+    const formatDate = (date) => {
+      let dateArr = date.split('/');
+      let temp = dateArr[0];
+      dateArr[0] = dateArr[1];
+      dateArr[1] = temp;
+      return dateArr.join('/');
+    }
+    const dob = formatDate(this.props.dob);
     return (
       <div>
       <section>
