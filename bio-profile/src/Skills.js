@@ -1,5 +1,6 @@
 import * as React from 'react';
 import Skill from './Skill';
+import './Skills.css';
 
 class Skills extends React.Component {
   constructor(props) {
@@ -11,11 +12,16 @@ class Skills extends React.Component {
     return (
       <div>
         I am skilled in:
+        <ul>
         {skills.map((skill, index) => {
           return (
-            <Skill skill={skill} key={index}/>
+            <li key={index}>
+              <Skill skill={skill} key={index}/>
+            </li>
           );
         })}
+        </ul>
+        <hr></hr>
       </div>
     );
   }
