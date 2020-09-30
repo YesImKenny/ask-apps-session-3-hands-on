@@ -4,8 +4,11 @@ const Name = (props) => {
   const name  = props.name;
   return (
     <div>
-      <section>Name:
-      <span> {name}</span>
+      <section>
+        Name:
+        <span> 
+          {name}
+        </span>
       </section>
       
     </div>

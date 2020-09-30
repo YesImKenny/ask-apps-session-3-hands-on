@@ -16,7 +16,6 @@ class BioProfile extends React.Component {
     return (
       
       <div>
-        {/* {console.log(this.props)} */}
         <Name name={name} />
         <Age age={age} />
         <DateOfBirth dob={dob} />
